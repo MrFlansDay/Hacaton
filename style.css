@@ -263,3 +263,50 @@ h1 {
     border-bottom: 5px solid;
     display: none;
 }
+
+.profileInfo {
+    margin-top: 7%;
+    margin-left: 7%;
+    margin-right: 7%;
+    display: flex;
+}
+
+.profileImage {
+    align-items: center;
+    background-image: url("images/profile.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 30vw;
+    height: 30vw;
+    margin: auto;
+}
+
+.profileleft {
+    height: 100%;
+    width: 50%;
+
+}
+
+.profileRight {
+    text-align: right;
+    height: 100%;
+    width: 100%;
+
+}
+
+.infoProfile {
+    font-size: 4vw;
+}
+
+.exit {
+    margin-top: 10vw;
+    width: 25%;
+    background-color: red;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 4vw;
+    margin-left: auto;
+    margin-right: auto;
+}
