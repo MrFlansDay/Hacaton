@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Login_Page</title>
+      <link rel="stylesheet" href="style.css">
+      <script defer src="Main.js"></script>
+    </head>
+    
+    <body>
+      <main id="main-holder">
+        <h1 id="login-header">Вход</h1>
+        
+        <div id="login-error-msg-holder">
+          <p id="login-error-msg">Неверное имя пользователя<span id="error-msg-second-line">и/или пароль</span></p>
+        </div>
+        
+        <form id="login-form">
+          <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Имя пользователя">
+          <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Пароль">
+          <div class="registration"><a href="reg.html">Регестрация</a></div>
+          <input type="submit" value="Войти" id="login-form-submit">
+        </form>
+      </main>
+    </body>
+    
+</html>
