@@ -1,0 +1,327 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-image: url("images/devops-h2.jpg");
+    background-size: cover;
+}
+
+ul {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 400%;
+}
+
+#main-holder {
+    width: 50%;
+    height: 70%;
+    justify-items: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px 2px black;
+}
+  
+  
+#login-form {
+    align-self: flex-start;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+  
+.login-form-field::placeholder {
+    color: #3a3a3a;
+}
+  
+.login-form-field {
+    width: 50%;
+    border: none;
+    border-bottom: 1px solid #3a3a3a;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    outline: none;
+    padding: 0px 0px 5px 5px;  
+}
+  
+#login-form-submit {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: #3a3a3a;
+    cursor: pointer;
+    outline: none;
+}
+
+.mainpage_container {
+    width: 100%;
+    height: 100%;
+}
+
+.topPage {
+    width: 100%;
+    height: 10vw;
+    justify-content: center;
+    background-color: rgb(185, 185, 185);
+    background-image: url("images/cloudsgovna.png");
+    background-size: cover;
+    background-position-y: 31%;
+    border-bottom: 4px solid;
+    border-color: black;
+}
+
+.centerPage {
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+
+.top {
+    height: 60%;
+}
+
+.buttom {
+    height: 40%;
+}
+
+.info {
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 100%;
+    background-color: rgba(244, 244, 244, 0.5);
+    padding-left: 1%;
+    padding-right: 1%;
+    border-right: 4px solid;
+    border-left: 4px solid;
+    border-color: black;
+}
+
+.button {
+    margin-right: 1%;
+    margin-top: 1%;
+    height: 2vw;
+    width: 9%;
+    display: inline-block;
+    float: right;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 2em;
+    background-color: rgb(255, 220, 177);
+    border: 1.5px solid green;
+}
+
+/* .aboutUs {
+    height: 10vw;
+    position: static;
+    background-color: rgb(255, 180, 75);
+} */
+.profile {
+    margin-right: 1%;
+    margin-top: 1%;
+    height: 2vw;
+    width: 9%;
+    /* display: inline-block; */
+    float: right;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 2em;
+    background-color: rgb(104, 0, 111);
+    /*background-color: rgb(185, 185, 185);*/
+    border: 1.5px solid rgb(255, 220, 177);
+}
+
+.profile2 {
+    /*color: rgb(255, 156, 80);*/
+    color: rgb(255, 220, 177);
+}
+
+.news {
+    margin-top: 7%;
+    margin-left: 7%;
+    margin-right: 7%;
+    height: 20vw;
+    display: flex;
+    background-color: blue;
+    border: 4px solid;
+    border-color: black;
+}
+
+.newsImage {
+    height: 100%;
+    width: 50%;
+    background-image: url("images/news1.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.newsText {
+    padding-left: 2%;
+    padding-left: 2%;
+    height: 100%;
+    border-left: 4px solid;
+    border-color: black;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+}
+
+.containerTable {
+    margin-top: 7%;
+    margin-left: 7%;
+    margin-right: 7%;
+    min-height: 20%;
+    /*background-color: rgb(255, 198, 238);*/
+    border-color: black;
+    padding: 0.3vw;
+}
+
+.nameTable {
+    width: 100%;
+    height: 5vw;
+    display: flex;
+    font-weight: bold;
+}
+
+.infoTable {
+    font-size: 25px;
+    text-align: center;
+    line-height: 5vw;
+    height: 100%;
+    width: 33.3333%;
+    background-color: rgb(255, 156, 80);
+    border: 1px solid;
+    border-color: black;
+}
+
+.personalTable {
+    width: 100%;
+    height: 5vw;
+    display: flex;
+}
+
+.lessonsPage {
+    display: flex;
+    height: 100%;
+    background-color: rgba(244, 244, 244, 0.7);
+}
+
+.leftSide {
+    border-top: 5px solid;
+    border-right: 5px solid;
+    height: 100%;
+    width: 25%;
+    /*background-color: rgb(95, 195, 152);*/
+}
+
+.middleSide {
+    border-top: 5px solid;
+    border-right: 5px solid;
+    height: 100%;
+    width: 60%;
+    /*background-color: rgb(95, 195, 152);*/
+}
+
+.rightSide {
+    border-top: 5px solid;
+    height: 100%;
+    width: 15%;
+    /*background-color: rgb(95, 195, 152);*/
+}
+
+.lesson {
+    height: 4vw;
+    padding-top: 1vw;
+    font-weight: bold;
+    font-size: 2vw;
+    text-align: center;
+    width: 100%;
+    border-bottom: 5px solid;
+}
+
+.links {
+    min-height: 7vw;
+    border-bottom: 5px solid;
+}
+
+.theme {
+    text-align: center;
+    border-bottom: 5px solid;
+    font-size: 2vw;
+}
+
+.lessonName {
+    text-align: center;
+    border-bottom: 5px solid;
+    font-size: 2vw;
+}
+
+.teacherLinks {
+    min-height: 7vw;
+    border-bottom: 5px solid;
+    display: none;
+}
+
+.profileInfo {
+    margin-top: 7%;
+    margin-left: 7%;
+    margin-right: 7%;
+    display: flex;
+}
+
+.profileImage {
+    align-items: center;
+    background-image: url("images/profile.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 30vw;
+    height: 30vw;
+    margin: auto;
+}
+
+.profileleft {
+    height: 100%;
+    width: 50%;
+
+}
+
+.profileRight {
+    text-align: right;
+    height: 100%;
+    width: 100%;
+
+}
+
+.infoProfile {
+    font-size: 4vw;
+}
+
+.exit {
+    margin-top: 10vw;
+    width: 25%;
+    background-color: red;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 4vw;
+    margin-left: auto;
+    margin-right: auto;
+}
