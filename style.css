@@ -89,6 +89,14 @@ h1 {
     border-color: black;
 }
 
+.logo {
+    position: absolute;
+    width: 10vw;
+    height: 8vw;
+    padding-top: 1vw;
+    padding-left: 0.5vw;
+}
+
 .centerPage {
     height: 100%;
     width: 100%;
